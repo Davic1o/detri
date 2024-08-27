@@ -1,0 +1,52 @@
+/* Directorio.css */
+
+.contenedor__Directorio {
+    width: 100%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .titulo__Directorio {
+    font-size: 2em;
+    color: var(--color-primario);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .tabla__Directorio {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  .tabla__Directorio th,
+  .tabla__Directorio td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .tabla__Directorio th {
+    background-color: var(--color-primario);
+    color: white;
+  }
+  
+  .tabla__Directorio tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .tabla__Directorio tr:hover {
+    background-color: #ddd;
+  }
+  
+  .tabla__Directorio a {
+    color: var(--color-primario);
+    text-decoration: none;
+  }
+  
+  .tabla__Directorio a:hover {
+    text-decoration: underline;
+  }
+  

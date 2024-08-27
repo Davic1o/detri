@@ -1,0 +1,14 @@
+/* Archivo Navbar.css o un nuevo archivo CSS si lo prefieres */
+.carousel-container {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden; /* Asegura que el contenido no se desborde */
+}
+
+.slick-slide img {
+    width: 100%;
+    height: 100%; /* Ajusta la altura según necesites */
+    object-fit: cover; /* Mantiene la proporción y rellena el contenedor */
+    object-position: center; /* Centra la imagen en el contenedor */
+}

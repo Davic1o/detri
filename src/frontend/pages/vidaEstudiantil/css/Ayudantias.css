@@ -1,0 +1,65 @@
+/* Ayudantias.css */
+
+.contenedor__Ayudantias {
+    width: 100%;
+    padding: 150px 20px;
+    background-color: #f0f0f0;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .titulo__Ayudantias {
+    font-size: 3em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .beca__Ayudantias {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .beca__Ayudantias:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  .beca__Ayudantias h2 {
+    font-size: 2em;
+    color: #1a73e8;
+    margin-bottom: 10px;
+  }
+  
+  .beca__Ayudantias p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .beca__Ayudantias p strong {
+    color: #1a73e8;
+  }
+  
+  .boton__Ayudantias {
+    padding: 12px 24px;
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 15px;
+  }
+  
+  .boton__Ayudantias:hover {
+    background-color: #0d47a1;
+    transform: scale(1.05);
+  }
+  

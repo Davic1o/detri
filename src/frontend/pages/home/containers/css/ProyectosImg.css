@@ -1,0 +1,105 @@
+/* Archivo ProyectosImg.css */
+
+.contenedr__Proyectos {
+    padding-top: 100px; /* Espacio superior */
+    width: 100%;
+    height: 100%;
+}
+
+.img__Proyectos { /* Ajustamos a relativo para poder posicionar el texto encima */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.img__Proyectos img {
+    width: 100%;
+    height: auto; /* Usamos auto para mantener la proporción de la imagen */
+    max-height: 700px; /* Altura máxima de la imagen */
+}
+.informacion__Proyectos {
+    height: 700px;
+    position: relative; /* Posicionamos absolutamente para colocarlo sobre la imagen */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/* Alinea el contenido al centro vertical */
+    width: 100%; /* Ancho del texto */
+    text-align: center; /* Alineamos el texto al centro */
+    font-size: 40px; /* Tamaño de fuente */
+    color: rgb(255, 255, 255); /* Color del texto, ajusta según el diseño */
+}
+
+.parte1__Proyectos, .parte2__Proyectos  {
+    position: absolute;
+    padding: 10px;
+    width: 60%;
+    background-color: var(--color-primario);
+    color: white; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    font-size: 40px; /* Tamaño de fuente */
+    font-weight: bold; /* Peso de la fuente */
+    line-height: 1.5; /* Altura de línea */
+}
+
+.parte1__Proyectos{
+    display: flex;
+    justify-content: flex-end;
+    top: 40%;
+    clip-path: polygon(0% 0%, 100% 0%, 92% 100%, 0% 100%);
+    opacity: 0;
+    transform: translateX(-1800px);
+    transition: transform 2s ease, opacity 1s ease;
+    
+}
+.verparte1__Proyectos{
+    opacity: 1;
+    transform: translateX(0);
+    transition: transform 2s ease;
+    
+}
+
+
+.parte2__Proyectos {
+    display: flex;
+    right: 0;
+    top: 60%;
+    clip-path: polygon(8% 0%, 100% 0%, 100% 100%, 0% 100%);
+    transform: translateX(1800px);
+    transition: transform 2s ease;
+}
+.verparte2__Proyectos{
+    transform: translateX(0);
+    transition: transform 1s ease;
+    
+}
+.texto__Proyectos{
+    margin: 0px 150px 0px 150px;
+}
+.boton__Proyectos{
+    top: 80%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 98%;
+    color: white; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    font-size: 23px; /* Tamaño de fuente */
+    font-weight: bold; /* Peso de la fuente */
+    line-height: 1.5; /* Altura de línea */
+}
+.textob__Proyectos{
+    cursor: pointer;
+    padding: 10px 0px;
+    background-color: var(--color-primario);
+    width: 15%;
+    border: 1px solid;
+    border-radius: 50px;
+}
+.textob__Proyectos:hover{
+    background-color: var(--color-blanco);
+    color: var(--color-primario);
+
+}

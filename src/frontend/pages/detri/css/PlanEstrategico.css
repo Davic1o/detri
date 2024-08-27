@@ -1,0 +1,52 @@
+/* PlanEstrategico.css */
+
+.contenedor__PlanEstrategico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .titulo__PlanEstrategico {
+    font-size: 2em;
+    color: var(--color-primario);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .descripcion__PlanEstrategico {
+    font-size: 1.2em;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 600px;
+  }
+  
+  .boton__PlanEstrategico {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: var(--color-primario);
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .boton__PlanEstrategico:hover {
+    background-color: var(--color-primario-dark);
+    transform: scale(1.05);
+  }
+  
+  .boton__PlanEstrategico:active {
+    background-color: var(--color-primario-light);
+    transform: scale(0.95);
+  }
+  

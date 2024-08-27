@@ -1,0 +1,53 @@
+/* BolsaTrabajo.css */
+
+.contenedor__BolsaTrabajo {
+    width: 100%;
+    padding: 150px 0;
+    background-color: #f0f0f0;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .titulo__BolsaTrabajo {
+    font-size: 3em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .slider__item {
+    padding: 0 15px;
+  }
+  
+  .oferta__BolsaTrabajo {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .oferta__BolsaTrabajo:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  .oferta__BolsaTrabajo h2 {
+    font-size: 2em;
+    color: #1a73e8;
+    margin-bottom: 10px;
+  }
+  
+  .oferta__BolsaTrabajo p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .oferta__BolsaTrabajo p strong {
+    color: #1a73e8;
+  }
+  
+  

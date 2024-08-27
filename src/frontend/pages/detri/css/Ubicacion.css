@@ -1,0 +1,8 @@
+.contendor__Ubicacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid;
+    width: 100%;
+    z-index: 0;
+}

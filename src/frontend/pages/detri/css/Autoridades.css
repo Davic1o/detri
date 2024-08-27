@@ -1,0 +1,52 @@
+/* Autoridades.css */
+
+.contenedor__Autoridades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .titulo__Autoridades {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .autoridad {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+  }
+  
+  .imagen__autoridad {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .info__autoridad {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .info__autoridad span:first-child {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .info__autoridad span:last-child {
+    font-size: 1em;
+    color: #555;
+  }
+  

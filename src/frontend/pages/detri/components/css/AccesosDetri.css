@@ -1,0 +1,38 @@
+/* Contenedor principal */
+.contenedor__AccesosDetri {
+    padding-top: 175px;
+  }
+  
+  /* Contenedor de accesos */
+  .accesos__AccesosDetri {
+    width: 99%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* Estilo base para cada acceso */
+  .acceso__AccesosDetri {
+    cursor: pointer;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: var(--color-menu);
+    color: var(--color-negro);
+    transition: transform 1s ease, background-color 0.5s ease, color 1s ease, box-shadow 1s ease;
+  }
+  
+  .acceso__AccesosDetri:hover{
+    background-color: var(--color-sombrah);
+  }
+  /* Estilo para el acceso activo */
+  .acceso__AccesosDetri.active {
+    font-weight: bold;
+    background-color: var(--color-sombra);
+    color: var(--color-blanco);
+    transform: scale(1.1);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3); /* Añadido alpha para transparencia */
+  }
+  

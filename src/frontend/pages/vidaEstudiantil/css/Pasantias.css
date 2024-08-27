@@ -1,0 +1,77 @@
+/* Pasantias.css */
+
+.contenedor__Pasantias {
+    width: 100%;
+    padding: 150px 0;
+    background-color: #f0f0f0;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .titulo__Pasantias {
+    font-size: 3em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .grid__Pasantias {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  .tarjeta__Pasantia {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .tarjeta__Pasantia:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  .tarjeta__Pasantia h2 {
+    font-size: 2em;
+    color: #1a73e8;
+    margin-bottom: 10px;
+  }
+  
+  .tarjeta__Pasantia p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .tarjeta__Pasantia p strong {
+    color: #1a73e8;
+  }
+  
+  .informacion__Pasantia {
+    margin-bottom: 15px;
+  }
+  
+  .verMas__Pasantia {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .verMas__Pasantia button {
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .verMas__Pasantia button:hover {
+    background-color: #0d47a1;
+  }
+  

@@ -1,0 +1,117 @@
+/* InforDocentes.css */
+
+.contenedor__InforDocentes {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.nombre__InforDocentes {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  color: var(--color-primario);
+  cursor: pointer;
+  padding: 15px;
+  background-color: var(--color-secundario);
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+.nombre__InforDocentes:hover {
+  background-color: var(--color-secundario-hover);
+}
+
+.icono__InforDocentes {
+  padding-right: 15px;
+  font-size: 40px;
+  transition: transform 0.3s ease;
+}
+
+.icono__InforDocentes.rotate {
+  padding-right: 15px;
+  transform: rotate(180deg);
+}
+
+.contenido__InforDocentes {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, padding 0.5s ease;
+  padding: 0 15px;
+}
+
+.contenido__InforDocentes.expand {
+  max-height: 500px; /* Ajusta esto según la cantidad de contenido */
+  padding: 15px;
+}
+
+.imagen__InforDocentes {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.foto__InforDocentes {
+  width: 100px; /* Ajusta el tamaño de la foto */
+  height: 100px; /* Ajusta el tamaño de la foto */
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--color-primario);
+}
+
+.detalle__InforDocentes {
+  margin-bottom: 10px;
+}
+
+.nombre__Asignaturas {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: var(--color-primario);
+  cursor: pointer;
+  padding: 10px;
+  background-color: var(--color-terciario);
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+.nombre__Asignaturas:hover {
+  background-color: var(--color-terciario-hover);
+}
+
+.iconoA__InforDocentes {
+  padding-right: 20px;
+  font-size: 30px;
+  transition: transform 0.3s ease;
+}
+
+.iconoA__InforDocentes.rotate {
+  transform: rotate(180deg);
+}
+
+.contenidoA__InforDocentes {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, padding 0.5s ease;
+  padding: 0 15px;
+}
+
+.contenidoA__InforDocentes.expanded {
+  max-height: 500px; /* Ajusta esto según la cantidad de contenido */
+  padding: 15px;
+}
+
+
+
+a:hover {
+  color: var(--color-primario-hover);
+}

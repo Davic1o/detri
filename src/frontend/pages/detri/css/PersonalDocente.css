@@ -1,0 +1,22 @@
+.contenedor__PersonalDocente{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo__PersonalDocente{
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: var(--color-primario);
+}
+.buscador__PersonalDocente{
+    width: 12%;
+}
+.datosDocentes__PersonalDocente{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

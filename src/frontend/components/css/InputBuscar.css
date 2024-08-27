@@ -1,0 +1,14 @@
+.contenedor__InputBuscar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 1px;
+    border: 1px solid;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: var(--color-blanco);
+    color: var(--color-primario);
+}
+.icono__InputBuscar{
+    cursor: pointer;
+}

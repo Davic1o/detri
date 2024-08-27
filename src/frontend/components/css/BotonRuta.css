@@ -1,0 +1,14 @@
+.contenedor__BotonRuta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    border: 1px solid;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.contenedor__BotonRuta:hover{
+    color: var(--color-primario);
+    background-color: var(--color-blanco);
+}

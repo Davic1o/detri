@@ -1,0 +1,43 @@
+/* CentrosLaboratorios.css */
+
+.contenedor__CentrosLaboratorios {
+    width: 100%;
+    padding: 150px 0px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0px auto;
+    max-width: 1200px;
+  }
+  
+  .titulo__CentrosLaboratorios {
+    font-size: 2.5em;
+    color: var(--color-primario);
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .laboratorio__CentrosLaboratorios {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .laboratorio__CentrosLaboratorios h2 {
+    font-size: 1.8em;
+    color: var(--color-primario);
+    margin-bottom: 10px;
+  }
+  
+  .laboratorio__CentrosLaboratorios p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .laboratorio__CentrosLaboratorios p strong {
+    color: var(--color-primario);
+  }
+  

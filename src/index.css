@@ -1,5 +1,9 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +14,60 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+button{
+  border: none;
+  outline: none;
+  background: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+input {
+  border: none;
+  outline: none;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+  }
+li {
+  list-style-type: none;
+}
+select {
+  appearance: none; /* Oculta los estilos predeterminados del navegador */
+  -webkit-appearance: none; /* Para navegadores WebKit */
+  -moz-appearance: none; /* Para navegadores Gecko */
+  -ms-appearance: none; /* Para navegadores Microsoft */
+  appearance: none; /* Para navegadores basados en estándares */
+  background-color: transparent; /* Fondo transparente */
+  border: none; /* Sin borde */
+  outline: none; /* Sin contorno */
+  padding: 0; /* Sin relleno */
+  margin: 0; /* Sin margen */
+  font-family: inherit; /* Hereda la fuente del elemento contenedor */
+  font-size: inherit; /* Hereda el tamaño de fuente del elemento contenedor */
+  color: inherit; /* Hereda el color del texto del elemento contenedor */
+}
+
+
+:root{
+  --color-primario: rgba(35, 32, 201, 0.884);
+  --color-texto: rgba(15, 14, 66, 0.884);
+  --color-sombra: rgba(14, 13, 59, 0.637);
+  --color-sombrah: rgba(14, 13, 59, 0.37);
+  --color-secundario :rgb(240, 239, 239);
+  --color-terciario: rgba(182, 79, 79, 0.192);
+  --color-cuarto: rgb(182, 117, 117);
+  --color-primario-hover:rgb(255, 0, 0);
+  --color-menu:rgb(219, 219, 219);
+  --color-h-menu: rgb(141, 139, 139);
+  --color-blanco:rgb(255, 255, 255);
+  --color-negro: rgb(0, 0, 0);
+
 }

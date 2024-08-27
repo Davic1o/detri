@@ -1,0 +1,77 @@
+/* Publicaciones.css */
+
+.contenedor__Publicaciones {
+    width: 100%;
+    padding: 150px 20px;
+    background-color: #eef2f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .titulo__Publicaciones {
+    font-size: 2.5em;
+    color: var(--color-primario);
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .publicacion__Publicaciones {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .publicacion__Publicaciones:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .foto__Publicaciones {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .contenido__Publicaciones {
+    flex: 1;
+  }
+  
+  .contenido__Publicaciones h2 {
+    font-size: 1.8em;
+    color: var(--color-primario);
+    margin-bottom: 10px;
+  }
+  
+  .contenido__Publicaciones p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .contenido__Publicaciones p strong {
+    color: var(--color-primario);
+  }
+  
+  .boton__Publicaciones {
+    padding: 10px 20px;
+    background-color: var(--color-primario);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .boton__Publicaciones:hover {
+    background-color: darken( black, 10%);
+  }
+  

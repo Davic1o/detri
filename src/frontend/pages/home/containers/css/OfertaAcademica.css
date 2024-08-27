@@ -1,0 +1,37 @@
+.contenedor__OfertaAcademica {
+    margin: 100px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 2s ease;
+    transform:scaleX(0);
+}
+.verContenedor__OfertaAcademica{
+    transform:scaleX(1);
+}
+
+.ofertas__OfertaAcademica {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Asegura que los elementos se envuelvan si es necesario */
+}
+
+.oferta__OfertaAcademica {
+    opacity: 0;
+    transform: rotateY(90deg); /* Inicialmente fuera de vista */
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+.verOfertas__OfertaAcademica {
+    transform: rotateY(0);
+    opacity: 1;
+}
+
+.contenedor__OfertaAcademica h3 {
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: var(--color-primario);    
+}
