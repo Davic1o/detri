@@ -57,9 +57,9 @@ select {
 
 
 :root{
-  --color-primario: rgba(35, 32, 201, 0.884);
+  --color-primario: #094293 ;
   --color-texto: rgba(15, 14, 66, 0.884);
-  --color-sombra: rgba(14, 13, 59, 0.637);
+  --color-sombra:#1c55a7;
   --color-sombrah: rgba(14, 13, 59, 0.37);
   --color-secundario :rgb(240, 239, 239);
   --color-terciario: rgba(182, 79, 79, 0.192);
@@ -69,5 +69,9 @@ select {
   --color-h-menu: rgb(141, 139, 139);
   --color-blanco:rgb(255, 255, 255);
   --color-negro: rgb(0, 0, 0);
-
+  --tamaño-pequeño: 12px;
+  --tamaño-mediano: 18px;
+  --tamaño-grande: 21px;
+  --tamaño-xl: 32px;
+  --font-family-sans: 'Arial', sans-serif;
 }

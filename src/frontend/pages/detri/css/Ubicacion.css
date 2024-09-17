@@ -1,8 +1,15 @@
-.contendor__Ubicacion{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 10px solid;
-    width: 100%;
-    z-index: 0;
+.contendor__Ubicacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid #000; /* Cambia el color del borde si es necesario */
+  width: 100%;
+  z-index: 0; /* Asegúrate de que no interfiera con otros elementos */
+  position: relative; /* Asegúrate de que se posicione correctamente */
+  background-color: #fff; /* Opcional: color de fondo para el contenedor */
+}
+
+.ubicacion__Mapa {
+  width: 100%;
+  height: 500px; /* Ajusta el tamaño del mapa según sea necesario */
 }

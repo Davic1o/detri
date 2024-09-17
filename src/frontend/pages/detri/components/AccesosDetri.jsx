@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import './css/AccesosDetri.css';
-import DetriAccesos from '../../../data/DetriAccesos';
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
+import "./css/AccesosDetri.css";
+import DetriAccesos from "../../../data/DetriAccesos";
 
 function AccesosDetri() {
   const location = useLocation();
@@ -13,9 +13,13 @@ function AccesosDetri() {
           const isActive = location.pathname === `/${item.Link}`;
 
           return (
-              <Link to={`/${item.Link}`} className={`acceso__AccesosDetri ${isActive ? 'active' : ''}`} key={item.id} >
-                {item.Nombre}
-              </Link>
+            <Link
+              to={`/${item.Link}`}
+              className={`acceso__AccesosDetri ${isActive ? "active" : ""}`}
+              key={item.id}
+            >
+              {item.Nombre}
+            </Link>
           );
         })}
       </div>

@@ -1,4 +1,7 @@
-.contenedor__Navbar{
+/* Navbar.css */
+
+.contenedor__Navbar {
+    margin-bottom: 30px;
     position: fixed;
     width: 100%;
     display: flex;
@@ -6,70 +9,116 @@
     justify-content: center;
     align-items: center;
     background-color: var(--color-primario);
-    box-shadow: 0px 10px 30px rgba(0,0,0);
+    /*box-shadow: 0px 10px 30px rgba(0,0,0);*/
     z-index: 2;
 }
-.links__Navbar, .logos__Navbar, .accesos__Navbar{
+
+.links__Navbar, .logos__Navbar, .accesos__Navbar {
     display: flex;
     margin: 5px;
     font-size: 1.5rem;
     width: 90%;
     color: var(--color-blanco);
 }
-.links__Navbar{
+
+.links__Navbar {
     justify-content: flex-end;
+    font-size: var(--tamaño-mediano);
 }
-.links__Navbar div{
+
+.links__Navbar div {
     display: flex;
     align-items: center;
 }
 
-.links__Navbar div div{
+.links__Navbar div div {
     margin: 10px;
     cursor: pointer;
 }
-.logos__Navbar{
+
+.logos__Navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
+    font-size: var(--tamaño-mediano);
 }
-.logo__Navbar, .opciones__Navbar{
+
+.logo__Navbar, .opciones__Navbar {
     display: flex;
 }
 
-.logo__Navbar, .opciones__Navbar div{
+.logo__Navbar, .opciones__Navbar div {
     margin: 0px 10px;
 }
 
-.logo__Navbar img{
-    margin-right:10px;
+.logo__Navbar img {
+    margin-right: 10px;
 }
-.accesos__Navbar{
-    width: 60%;
+
+.accesos__Navbar {
+    width: 100%;
+    display: flex;
     justify-content: space-around;
-    cursor: pointer;
+  /*  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
 }
 
-
-
-
-.subaccesos__Navbar{
-    margin-top: 5px;
-    position: absolute;
-    border: 1px solid;
-    background-color: var(--color-menu);
-    box-shadow: 0px 4px 20px rgba(0,0,0);
+/*new*/
+.acceso__Navbar {
+    width: 100%;
+    position: relative; /* Necesario para posicionar el submenú */
+    font-size: var(--tamaño-mediano);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
     padding: 10px;
-
+    
 }
-.subaccesos__Navbar div{
+.acceso__Navbar:hover {
+    
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+    background-color: var(--color-sombra);
+}
+
+  
+.subaccesos__Navbar {
+    width: 91%;
+    display: none; /* Oculta el submenú por defecto */
+    position: absolute;
+    top: 100%; /* Ajusta la posición vertical según sea necesario */
+    left: 0;
+    border: 1px solid;
+    border-radius: 5%;
+    background-color: var(--color-menu);
+    box-shadow:  var(--color-sombra);
+    padding: 10px;
+    z-index: 1000; /* Asegura que el submenú esté sobre otros elementos */
+}
+
+.acceso__Navbar:hover .subaccesos__Navbar,
+.acceso__Navbar.active .subaccesos__Navbar {
+    display: block; /* Muestra el submenú cuando se pasa el ratón o cuando está activo */
+}
+
+.subacceso__Navbar {
+   
     padding: 5px;
     cursor: pointer;
     color: var(--color-negro);
+  
 }
 
+.subacceso__Navbar.active {
+    font-weight: bold; /* Aplica un estilo especial al enlace activo */
 
-.subaccesos__Navbar div:hover{
+}
+
+.subacceso__Navbar:hover {
     color: var(--color-blanco);
-    background-color: var(--color-h-menu);
+    background-color: var(--color-h-menu); /* Cambia el color de fondo al pasar sobre el elemento del submenú */
+}
+.subacceso__Navbar:hover {
+    color: var(--color-blanco);
+    background-color: var(--color-h-menu); /* Cambia el color de fondo al pasar sobre el elemento del submenú */
+  
 }

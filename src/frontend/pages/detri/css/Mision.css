@@ -1,56 +1,53 @@
 /* Contenedor principal de la misión */
 .contenedor__Mision {
-    padding-top: 12px;
-    height: 300px;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-   /* Mover el elemento hacia abajo inicialmente */
-  }
-  
-  /* Clase para cuando el elemento está visible */
+  padding-top: 12px;
+  height: 300px; 
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 
-  
-  /* Contenedor de la información de la misión */
-  .informacion__Mision {
-    margin: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-  }
-  
-  /* Título de la misión */
-  .titulo__Mision {
-    margin: 50px;
-    font-size: 40px;
-    font-weight: bold;
-    letter-spacing: 5px;
-    color: var(--color-primario);
-    opacity: 0; /* Inicialmente invisible */
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-    transform: translateX(100px);
-  }
-  .titulo__Mision.visibletitulo__Mision {
-    opacity: 1; /* Totalmente visible */
-    transform: translateX(0); /* Posición original */
-  }
-  
-  /* Texto de la misión */
-  .texto__Mision {
-    font-weight: bold;
-    line-height: 45px;
-    font-size: 30px;
-    text-align: justify;
-    color: var(--color-texto);
-    opacity: 0; /* Inicialmente invisible */
-    transition: opacity 2s ease-in-out, transform 1s ease-in-out;
-    transform: translateX(350px);
-  }
+}
 
-  .texto__Mision.visibletexto__Mision {
-    opacity: 1; /* Totalmente visible */
-    transform: translateX(0); /* Posición original */
-  }
-  
+/* Contenedor de la información de la misión */
+.informacion__Mision {
+  display: flex;
+  flex-direction: column; /* Alinea los elementos verticalmente */
+  justify-content: center;
+  align-items: center;
+  width: 80%; /* Ajusta según sea necesario */
+  text-align: center; /* Centra el texto */
+}
+
+/* Título de la misión */
+.titulo__Mision {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: var(--color-primario);
+  opacity: 0; /* Inicialmente invisible */
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  transform: translateX(100px);
+}
+
+.titulo__Mision.visibletitulo__Mision {
+  opacity: 1; /* Totalmente visible */
+  transform: translateX(0); /* Posición original */
+}
+
+/* Texto de la misión */
+.texto__Mision {
+  font-weight: bold;
+  line-height: 45px;
+  font-size: 30px;
+  text-align: justify;
+  color: var(--color-texto);
+  opacity: 0; /* Inicialmente invisible */
+  transition: opacity 2s ease-in-out, transform 1s ease-in-out;
+  transform: translateX(350px);
+}
+
+.texto__Mision.visibletexto__Mision {
+  opacity: 1; /* Totalmente visible */
+  transform: translateX(0); /* Posición original */
+}
